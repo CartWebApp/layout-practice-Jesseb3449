@@ -1,0 +1,45 @@
+#nav > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color:  #383e4c;
+    color: white;
+    
+    
+}
+
+
+#hero {
+    background-image: url(/layout-01-assets/img11.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+
+#main > * {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#headline1{
+    background-image: url(/layout-01-assets/img1.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#headline2{
+    background-image: url(/layout-01-assets/img2.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+}
