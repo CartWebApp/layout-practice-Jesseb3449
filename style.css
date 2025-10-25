@@ -205,12 +205,12 @@ nav a {
 .subhero > article {
   display: inline-block;
   width: 250px;
-  height: 500px;
+  height: 450px;
   margin: 15px;
   background: white;
   color: #333;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
-  vertical-align: top;
+  
 }
 
 .subhero img {
@@ -352,10 +352,6 @@ nav a {
   
 }
 
-.contact textarea {
-  resize: vertical;
-  min-height: 120px;
-}
 
 .contact button[type="submit"] {
   margin-top: 20px;
@@ -364,7 +360,7 @@ nav a {
   color: white;
   border: none;
   border-radius: 3px;
-  cursor: pointer;
+  
   font-size: 14px;
   align-self: center;
 }
